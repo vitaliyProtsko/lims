@@ -1,0 +1,508 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="initial-scale=1.0, width=device-width">
+  <title>LIMS</title>
+  <link rel="stylesheet" href="css/style.min.css" type="text/css" />
+  <script defer src="js/all.min.js"></script>
+</head>
+<body>
+
+  <div class="container">
+
+    <header class="main-header">
+      <nav class="main-navigation">
+        <a class="main-header-logo">lims</a>
+        <div class="menu">
+          <button class="menu-hamburger hamburger" aria-label="Кнопка меню">
+            <span class="hamburger-element"></span>
+          </button>
+          <ul class="menu-list">
+            <li class="navigation-element">
+              <a class="navigation-link">menu element</a>
+            </li>
+            <li class="navigation-element">
+              <a class="navigation-link">menu element</a>
+            </li>
+            <li class="navigation-element">
+              <a class="navigation-link">menu element</a>
+            </li>
+            <li class="navigation-element">
+              <a class="navigation-link">menu element</a>
+            </li>
+            <li class="navigation-element">
+              <a class="navigation-link">menu element</a>
+            </li>
+          </ul>
+        </div>
+        <div class="main-navigation-wrapper">
+          <div class="main-navigation-container">
+            <ul class="site-navigation">
+              <li class="navigation-element navigation-element-one">
+                <a class="navigation-link">Instruments</a>
+              </li>
+              <li class="navigation-element navigation-element-two">
+                <a class="navigation-link">Widgets</a>
+              </li>
+              <li class="navigation-element navigation-element-three">
+                <a class="navigation-link">View</a>
+              </li>
+              <li class="navigation-element navigation-element-four">
+                <a class="navigation-link">Administration</a>
+              </li>
+            </ul>
+            <ul class="user-navigation">
+              <li class="navigation-element navigation-element-five">
+                <a class="navigation-link">Alexander</a>
+              </li>
+              <li class="navigation-element navigation-element-six">
+                <a class="navigation-link">ENG</a>
+              </li>
+              <li class="navigation-element navigation-element-seven">
+                <a class="navigation-link">
+                  <img src="img/unlock-icon.png" width="17" height="24" alt="">
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main class="main-columns">
+
+      <div class="sidebar">
+
+        <section class="system">
+          <div class="system-search">
+            <form class="system-search-form" action="#" method="POST">
+              <input type="text" name="search" placeholder="Search">
+              <button type="submit">
+                <img src="img/search-icon.png" alt="" width="16" height="17">
+              </button>
+            </form>
+          </div>
+          <div class="system-status">
+            <span class="system-timer-tooltip timer-tooltip-one">Run 00:23/01:00</span>
+            <span class="system-timer-tooltip timer-tooltip-two">-00:47</span>
+            <div class="system-timer" data-progress-percent="100">
+              <div class="system-timer-line"></div>
+            </div>
+            <div class="system-start">
+              <div class="system-start-title">
+                <p>run</p>
+              </div>
+              <div class="system-start-keys">
+                <button class="system-start-button">
+                  <img src="img/button-on.png" width="24" height="24" alt="">
+                </button>
+                <button class="system-start-button">
+                  <img src="img/button-off.png" width="24" height="24" alt="">
+                </button>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section class="widgets">
+          <ul class="widgets-list">
+            <li class="widgets-item widgets-item-one">
+              <p class="widgets-item-title">Sampler</p>
+              <a class="widgets-item-container" href="#">
+                <div class="widgets-item-left">
+                  <svg class="widgets-item-svg svg-icon" width="55" height="106">
+                    <use xlink:href="img/symbol/sprite.svg#syringe-icon"></use>
+                  </svg>
+                </div>
+                <div class="widgets-item-right">
+                  <ul class="widgets-item-preview">
+                    <li class="widgets-item-img">
+                      <img class="widgets-item-svg" src="img/thermostat-icon.png" width="28" height="42" alt="">
+                    </li>
+                    <li>
+                      <img class="widgets-item-svg" src="img/vial-icon.png" width="21" height="35" alt="">
+                    </li>
+                  </ul>
+                </div>
+              </a>
+            </li>
+            <li class="widgets-item widgets-item-two">
+              <p class="widgets-item-title">Quat. Pump</p>
+              <a class="widgets-item-container" href="#">
+                <ul class="widgets-item-preview">
+                  <li class="widgets-element-one">
+                    <svg class="widgets-item-svg svg-icon" width="30" height="53">
+                      <use xlink:href="img/symbol/sprite.svg#bottleA-icon"></use>
+                    </svg>
+                    <p>0.0</p>
+                  </li>
+                  <li class="widgets-element-two">
+                    <svg class="widgets-item-svg svg-icon" width="30" height="53">
+                      <use xlink:href="img/symbol/sprite.svg#bottleB-icon"></use>
+                    </svg>
+                    <p>100.0</p>
+                  </li>
+                  <li class="widgets-element-three">
+                    <svg class="widgets-item-svg svg-icon" width="51" height="31">
+                      <use xlink:href="img/symbol/sprite.svg#valve-icon"></use>
+                    </svg>
+                  </li>
+                </ul>
+              </a>
+              <p class="widgets-item-text">1.000 mL/min</p>
+            </li>
+          </ul>
+          <p class="widgets-button">
+            <a href="#">
+              <img src="img/button.png" alt="" width="30" height="30">
+            </a>
+          </p>
+        </section>
+
+      </div>
+
+      <div class="worklist">
+
+        <section class="method">
+
+          <div class="method-top-wrapper">
+            <ul class="parametrs-list">
+              <li class="parametrs-item parametrs-item-one">
+                <p class="parametrs-text">WORKLIST <b>run</b></p>
+              </li>
+              <li class="parametrs-item parametrs-item-two">
+                <p class="parametrs-text"><span>TO DO:</span> 23 injections</p>
+              </li>
+              <li class="parametrs-item parametrs-item-three">
+                <p class="parametrs-text">02:15:00</p>
+              </li>
+              <li class="parametrs-item parametrs-item-four">
+                <p class="parametrs-text"><b>Method:</b> Method1.amx (00:00/04:30)</p>
+              </li>
+              <li class="parametrs-item parametrs-item-five">
+                <p class="parametrs-text">single run</p>
+              </li>
+            </ul>
+          </div>
+
+          <div class="method-center-wrapper">
+
+            <div class="tabs">
+              <input class="radio-folder" type="radio" name="folder" id="folder1">
+              <label for="folder1">ALS</label>
+              <div class="als-tab">
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Iste fugit saepe fuga quidem dolorum voluptas
+                delectus consequatur, totam, sit magni quam laudantium nam id reiciendis nulla. Aliquam nisi aut
+                maiores.
+                Ipsum aperiam excepturi quibusdam molestias molestiae voluptates quos nobis consequuntur, architecto
+                obcaecati voluptatum nulla nemo provident fuga eum! Facere labore nobis est exercitationem vel quas
+                mollitia eveniet harum, nostrum enim!
+                Velit vel quos non nostrum ipsam voluptatibus nisi minus cupiditate eos perferendis dolore, consequatur
+                doloremque totam deserunt ex reprehenderit possimus necessitatibus dolor! Ut reiciendis labore rem
+                impedit aperiam voluptates quod.
+                Unde quasi esse, asperiores voluptates doloremque harum laborum nihil! Animi, magnam repellendus, esse
+                voluptate quae atque dolore enim omnis ea pariatur, numquam et iure? Doloremque ipsa rem hic accusamus
+                incidunt!
+                Ut nisi debitis expedita provident incidunt similique culpa voluptate, nostrum quaerat id tempore non
+                totam! Quae, adipisci minus voluptate autem esse error labore consequatur. Tenetur, saepe? Doloribus
+                doloremque temporibus laborum!
+                Atque, incidunt omnis voluptatibus iste animi est libero id minus voluptatum porro voluptas? Ad autem ut
+                architecto magnam libero consequuntur eligendi consequatur, cum aliquam delectus commodi odit tenetur
+                dolorum dolores.
+                Rem in adipisci fuga voluptatibus
+              </div>
+
+              <input class="radio-folder" type="radio" name="folder" id="folder2">
+              <label for="folder2">Inlets</label>
+              <div class="inlets-tab">
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Iste fugit saepe fuga quidem dolorum voluptas
+                delectus consequatur, totam, sit magni quam laudantium nam id reiciendis nulla. Aliquam nisi aut
+                maiores.
+                Ipsum aperiam excepturi quibusdam molestias molestiae voluptates quos nobis consequuntur, architecto
+                obcaecati voluptatum nulla nemo provident fuga eum! Facere labore nobis est exercitationem vel quas
+                mollitia eveniet harum, nostrum enim!
+                Velit vel quos non nostrum ipsam voluptatibus nisi minus cupiditate eos perferendis dolore, consequatur
+                doloremque totam deserunt ex reprehenderit possimus necessitatibus dolor! Ut reiciendis labore rem
+                impedit aperiam voluptates quod.
+                Unde quasi esse, asperiores voluptates doloremque harum laborum nihil! Animi, magnam repellendus, esse
+                voluptate quae atque dolore enim omnis ea pariatur, numquam et iure? Doloremque ipsa rem hic accusamus
+                incidunt!
+                Ut nisi debitis expedita provident incidunt similique culpa voluptate, nostrum quaerat id tempore non
+                totam! Quae, adipisci minus voluptate autem esse error labore consequatur. Tenetur, saepe? Doloribus
+                doloremque temporibus laborum!
+                Atque, incidunt omnis voluptatibus iste animi est libero id minus voluptatum porro voluptas? Ad autem ut
+                architecto magnam libero consequuntur eligendi consequatur, cum aliquam delectus commodi odit tenetur
+                dolorum dolores.
+                Rem in adipisci fuga voluptatibus
+              </div>
+
+              <input class="radio-folder" type="radio" name="folder" id="folder3" checked>
+              <label for="folder3">Columns</label>
+              <div class="columns-tab">
+                <ul class="columns-tab-list">
+                  <li class="columns-tab-top">
+                    <div class="columns-tab-wrapper">
+                      <div class="columns-tab-image columns-image-one">
+                        <p class="columns-tab-title">Front Inlet</p>
+                        <img src="img/inlet-icon.png" alt="" width="21" height="42">
+                        <p class="columns-tab-text"><b>SS (H<sub>2</sub>)</b></p>
+                      </div>
+                      <div class="columns-tab-image columns-image-two">
+                        <p class="columns-tab-title">Agilent 19091Q-002</p>
+                        <img src="img/column-icon.png" alt="" width="41" height="42">
+                        <p class="columns-tab-text">60 &deg;C - 450 &deg;C (450 &deg;C)</p>
+                        <p>25 m * 320 μm * 1μm</p>
+                      </div>
+                      <div class="columns-tab-image">
+                        <p class="columns-tab-title">Back Detector</p>
+                        <div class="tab-image-three">
+                          <img src="img/detector-icon.png" alt="" width="31" height="31">
+                        </div>
+                        <p class="columns-tab-text"><b>npd</b></p>
+                      </div>
+                    </div>
+                    <div class="columns-tab-description">
+                      <p>(Initial): 0 min<br>
+                        ArMe @ 35 &deg;C Oven<br>
+                        Out: Ambient Pressure<br>
+                        25 m * 320 μm * 1μm
+                      </p>
+                    </div>
+                  </li>
+                  <li class="columns-tab-center">
+                    <fieldset>
+                      <legend>Control Mode</legend>
+                      <label class="check option">
+                        <input class="check-input" type="checkbox" checked>
+                        <span class="check-box"></span>
+                        On
+                      </label>
+                      <ul class="columns-tab-form">
+                        <li class="columns-tab-option">
+                          <label for="flow">Flow</label>
+                          <input class="columns-tab-input" id="flow" type="text" name="flow" value=""
+                            placeholder="16.849">
+                          <span>mL/min</span>
+                        </li>
+                        <li class="columns-tab-option">
+                          <label for="velocity">Average Velocity</label>
+                          <input class="columns-tab-input" id="velocity" type="text" name="velocity" value=""
+                            placeholder="198.05">
+                          <span>cm/sec</span>
+                        </li>
+                        <li class="columns-tab-option">
+                          <label for="pressure">Pressure</label>
+                          <input class="columns-tab-input" id="pressure" type="text" name="pressure" value=""
+                            placeholder="21.756">
+                          <span>psi</span>
+                        </li>
+                        <li class="columns-tab-option">
+                          <label for="time">Holdup Time</label>
+                          <input class="columns-tab-input" id="time" type="text" name="time" value=""
+                            placeholder="0.21038">
+                          <span>min</span>
+                        </li>
+                      </ul>
+                    </fieldset>
+                  </li>
+                  <li class="columns-tab-bottom">
+                    <fieldset>
+                      <legend>Post Run</legend>
+                      <ul>
+                        <li class="columns-tab-option">
+                          <label for="post-run">Post Run</label>
+                          <input class="columns-tab-input" id="post-run" type="text" name="post-run" value=""
+                            placeholder="16.849">
+                          <span>mL/min</span>
+                        </li>
+                      </ul>
+                    </fieldset>
+                  </li>
+                </ul>
+              </div>
+            </div>
+
+            <div class="settings">
+              <fieldset>
+                <legend>Pressure/Flow Settings</legend>
+                <ul class="settings-list">
+                  <li class="settings-item">
+                    <label class="settings-option">
+                      <input class="settings-input" type="radio" name="settings-group" value="">
+                      <span class="radio-button"></span>
+                      Constant Pressure
+                    </label>
+                  </li>
+                  <li class="settings-item">
+                    <label class="settings-option">
+                      <input class="settings-input" type="radio" name="settings-group" value="" checked>
+                      <span class="radio-button"></span>
+                      Ramped Pressure
+                    </label>
+                  </li>
+                  <li class="settings-item">
+                    <label class="settings-option">
+                      <input class="settings-input" type="radio" name="settings-group" value="">
+                      <span class="radio-button"></span>
+                      Constant Flow
+                    </label>
+                  </li>
+                  <li class="settings-item">
+                    <label class="settings-option">
+                      <input class="settings-input" type="radio" name="settings-group" value="">
+                      <span class="radio-button"></span>
+                      Ramped Flow
+                    </label>
+                  </li>
+                </ul>
+
+                <table>
+                  <tr>
+                    <th colspan="2" class="ramp">Ramp ##</th>
+                    <th class="rate">Rate, mL/min per min</th>
+                    <th class="value">Value, mL/min</th>
+                    <th class="hold-time">Hold Time, min</th>
+                    <th class="run-time">Run Time, min</th>
+                  </tr>
+                  <tr>
+                    <td></td>
+                    <td class="initial">(Initial)</td>
+                    <td></td>
+                    <td>16.849</td>
+                    <td>0</td>
+                    <td>0</td>
+                  </tr>
+                  <tr>
+                    <td class="table-item">
+                      <label class="settings-option">
+                        <input class="settings-input" type="radio" name="table-radio">
+                        <span class="radio-button"></span>
+                      </label>
+                    </td>
+                    <td class="ramp1">Ramp 1</td>
+                    <td>10</td>
+                    <td>16.849</td>
+                    <td>0</td>
+                    <td>0</td>
+                  </tr>
+                  <tr>
+                    <td class="table-item">
+                      <label class="settings-option">
+                        <input class="settings-input" type="radio" name="table-radio">
+                        <span class="radio-button"></span>
+                      </label>
+                    </td>
+                    <td class="ramp2">Ramp 2</td>
+                    <td>20</td>
+                    <td>16.849</td>
+                    <td>5</td>
+                    <td>26</td>
+                  </tr>
+                </table>
+
+                <p class="settings-img">
+                  <a href="#">
+                    <img src="img/switch-icon.svg" alt="" width="33" height="33">
+                  </a>
+                </p>
+
+              </fieldset>
+            </div>
+          </div>
+
+          <div class="method-bottom-wrapper">
+            <ul class="method-controls-left">
+              <li class="method-controls-item">
+                <a href="#">
+                  <img src="img/button-new.png" width="26" height="26" alt="">
+                  <p>New</p>
+                </a>
+              </li>
+              <li class="method-controls-item">
+                <a href="#">
+                  <img src="img/button-open.png" width="26" height="26" alt="">
+                  <p>Open</p>
+                </a>
+              </li>
+            </ul>
+            <ul class="method-controls-right">
+              <li class="method-controls-item">
+                <button class="method-controls-button">Save</button>
+              </li>
+              <li class="method-controls-item">
+                <button class="method-controls-button">Save as</button>
+              </li>
+              <li class="method-controls-item">
+                <button class="method-controls-button controls-button-last">Cancel</button>
+              </li>
+            </ul>
+          </div>
+
+        </section>
+
+        <section class="live-chart">
+
+          <fieldset>
+            <legend>live Chart</legend>
+
+            <div class="live-chart-wrapper">
+
+              <div class="live-chart-left">
+                <ul class="live-chart-list">
+                  <li class="live-chart-item chart-item-one">
+                    <p class="live-chart-text"><b>Plot</b></p>
+                  </li>
+                  <li class="live-chart-item chart-item-two">
+                    <p class="live-chart-text">Plot</p>
+                  </li>
+                  <li class="live-chart-item chart-item-three">
+                    <p class="live-chart-text">Plot</p>
+                  </li>
+                </ul>
+                <p class="live-chart-img">
+                  <img src="img/live-chart.png" alt="" width="666" height="285">
+                </p>
+              </div>
+
+              <div class="live-chart-right">
+                <ul class="live-chart-list">
+                  <li>
+                    <a href="#">
+                      <img src="img/legend-icon.png" width="45" height="45" alt="">
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#">
+                      <img src="img/xy-settings-icon.png" width="45" height="45" alt="">
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#">
+                      <img src="img/balance-icon.png" width="45" height="45" alt="">
+                    </a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+
+          </fieldset>
+
+        </section>
+
+        <section class="spectra">
+          <fieldset>
+            <legend>spectra</legend>
+            <div class="spectra-wrapper"></div>
+          </fieldset>
+        </section>
+
+      </div>
+
+    </main>
+
+  </div>
+
+</body>
+</html>
+
