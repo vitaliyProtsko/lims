@@ -1,0 +1,12 @@
+<svg 
+ xmlns="http://www.w3.org/2000/svg"
+ xmlns:xlink="http://www.w3.org/1999/xlink"
+ width="31.5px" height="54.5px">
+<path fill-rule="evenodd"  stroke="rgb(18, 169, 235)" stroke-width="1px" stroke-linecap="butt" stroke-linejoin="miter" fill="none"
+ d="M8.500,0.500 L22.500,0.500 L22.500,9.500 L8.500,9.500 L8.500,0.500 Z"/>
+<path fill-rule="evenodd"  stroke="rgb(18, 169, 235)" stroke-width="1px" stroke-linecap="butt" stroke-linejoin="miter" fill="none"
+ d="M8.000,8.500 L23.000,8.500 C24.381,8.500 25.500,9.619 25.500,11.000 C25.500,12.381 24.381,13.500 23.000,13.500 L8.000,13.500 C6.619,13.500 5.500,12.381 5.500,11.000 C5.500,9.619 6.619,8.500 8.000,8.500 Z"/>
+<path fill-rule="evenodd"  stroke="rgb(18, 169, 235)" stroke-width="1px" stroke-linecap="butt" stroke-linejoin="miter" fill="none"
+ d="M8.500,12.500 L22.500,12.500 C24.709,12.500 30.500,21.291 30.500,23.500 L30.500,49.500 C30.500,51.709 28.709,53.500 26.500,53.500 L4.500,53.500 C2.291,53.500 0.500,51.709 0.500,49.500 L0.500,23.500 C0.500,21.291 6.291,12.500 8.500,12.500 Z"/>
+<text kerning="auto" font-family="Myriad Pro" fill="rgb(0, 0, 0)" font-size="11px" x="12.5px" y="39.34px"><tspan font-size="11px" font-family="Roboto" fill="#2F3B4C">A</tspan></text>
+</svg>

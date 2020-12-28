@@ -1,0 +1,37 @@
+<svg id="switch_to_gradient" data-name="switch to gradient" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="33" height="33" viewBox="0 0 33 33">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #11a9ec;
+        stroke: #12a9eb;
+        filter: url(#filter);
+      }
+
+      .cls-1, .cls-2 {
+        stroke-width: 1px;
+      }
+
+      .cls-2 {
+        fill: none;
+        stroke: #fff;
+        fill-rule: evenodd;
+      }
+    </style>
+    <filter id="filter" x="0.5" y="0.5" width="32" height="32" filterUnits="userSpaceOnUse">
+      <feOffset result="offset" dx="0.5" dy="0.866" in="SourceAlpha"/>
+      <feGaussianBlur result="blur" stdDeviation="1.732"/>
+      <feFlood result="flood" flood-opacity="0.3"/>
+      <feComposite result="composite" operator="in" in2="blur"/>
+      <feBlend result="blend" in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g style="fill: #11a9ec; filter: url(#filter)">
+    <circle id="Эллипс_1" data-name="Эллипс 1" class="cls-1" cx="15" cy="15" r="13.5" style="stroke: inherit; filter: none; fill: inherit"/>
+  </g>
+  <use xlink:href="#Эллипс_1" style="stroke: #12a9eb; filter: none; fill: none"/>
+  <path id="Фигура_4" data-name="Фигура 4" class="cls-2" d="M1866,475v-1h14v1h-14Z" transform="translate(-1857.5 -454.5)"/>
+  <path id="Фигура_5" data-name="Фигура 5" class="cls-2" d="M1865,464h1v11h-1V464Z" transform="translate(-1857.5 -454.5)"/>
+  <path id="Фигура_1" data-name="Фигура 1" class="cls-2" d="M1866.43,475.248l-0.86-.5,4-7,0.86,0.5Z" transform="translate(-1857.5 -454.5)"/>
+  <path id="Фигура_2" data-name="Фигура 2" class="cls-2" d="M1869.65,468.353l0.7-.707,4,4-0.7.707Z" transform="translate(-1857.5 -454.5)"/>
+  <path id="Фигура_3" data-name="Фигура 3" class="cls-2" d="M1874.42,472.265l-0.84-.53,5-8,0.84,0.53Z" transform="translate(-1857.5 -454.5)"/>
+</svg>

@@ -1,0 +1,39 @@
+$menuBg: #e1e5e8;
+
+.menu {
+    padding-left: 16px;
+}
+
+.menu-hamburger {
+    width: 35px;
+    height: 33px;
+}
+
+.menu-list {
+    background: $menuBg;
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    padding-left: 5px;
+    padding-right: 5px;
+    box-sizing: border-box;
+    display: none;
+    z-index: -9999;
+}
+
+.menu-list-active {
+    display: flex;
+    flex-direction: column;
+    z-index: 1;
+    animation-duration: 500ms;
+    animation-name: menu;
+}
+
+@keyframes menu {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
